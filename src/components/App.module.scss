@@ -1,0 +1,18 @@
+.app {
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.mainContainer {
+    height: 100%;
+    transition: all .3s ease-in-out;
+    margin: 5%;
+}
+
+.titleContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(-45deg,#196480,#0c3450);
+}
