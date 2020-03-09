@@ -10,17 +10,17 @@ This is our custom ES Lint config file. It's the first step in having an agreed 
 - NPM Packages: eslint, babel-eslint, eslint-plugin-react.
 
 ### Installation
-#### Adding eslint
+##### Adding eslint
 - yarn global add eslint
 <br>OR
 - npm install -g eslint
 
-#### Adding the Babel Plugin
+##### Adding the Babel Plugin
 - yarn add --dev babel-eslint
 <br>OR
 - npm install --save-dev babel-eslint
 
-#### Adding the React Plugin
+##### Adding the React Plugin
 - yarn add --dev eslint-plugin-react
 <br>OR
 - npm install --save-dev eslint-plugin-react
