@@ -14,8 +14,8 @@ const App = () => {
                 <GlasswallLoginLogo />
                 <PageTitle
                     heading="Glasswall's Frontend Coding Style-Guide"
-                    subHeading="A frontend coding standards guideline, hopefully to enforce a consistent and maintainable frontend codebase." >
-
+                    subHeading="A frontend coding standards guideline, hopefully to enforce a consistent and maintainable frontend codebase.">
+                    
                     <TitleButton />
 
                 </PageTitle>
