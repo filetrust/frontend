@@ -2,7 +2,7 @@ import React from 'react';
 
 import styles from './PageTitle.module.scss';
 
-function PageTitle(props) {
+const PageTitle = (props) => {
     return (
         <div className={styles.titleContainer}>
             <h1 className={styles.heading}>{props.heading}</h1>

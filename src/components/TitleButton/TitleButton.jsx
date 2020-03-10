@@ -2,7 +2,7 @@ import React from 'react';
 
 import styles from './TitleButton.module.scss';
 
-function TitleButton() {
+const TitleButton = () => {
     return (
         <a href="https://github.com/filetrust/frontend"
             className={styles.button}

@@ -21,6 +21,7 @@ module.exports = {
         "react/display-name": ["off"],
         "react/no-unescaped-entities": ["off"],
         "jsx-quotes": ["error", "prefer-double"],
+        "func-style": ["error", "expression", { "allowArrowFunctions": true }],
         indent: ["error", 4, { SwitchCase: 1 }],
         "linebreak-style": ["error", "windows"],
         quotes: ["error", "single"],

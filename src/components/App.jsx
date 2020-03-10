@@ -6,7 +6,7 @@ import PageTitle from './PageTitle/PageTitle';
 import TitleButton from '../components/TitleButton/TitleButton';
 import GlasswallLoginLogo from './GlasswallLoginLogo/GlasswallLoginLogo';
 
-function App() {
+const App = () => {
 
     return (
         <div className={styles.app}>
