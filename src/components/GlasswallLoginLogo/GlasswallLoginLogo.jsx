@@ -1,5 +1,5 @@
-import React from "react";
-import styles from "./GlasswallLoginLogo.module.scss";
+import React from 'react';
+import styles from './GlasswallLoginLogo.module.scss';
 
 function GlasswallLoginLogo() {
     return (

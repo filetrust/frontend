@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-import styles from "./TitleButton.module.scss";
+import styles from './TitleButton.module.scss';
 
 function TitleButton() {
     return (

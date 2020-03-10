@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 
-import styles from "./App.module.scss";
+import styles from './App.module.scss';
 
-import PageTitle from "./PageTitle/PageTitle";
-import TitleButton from "../components/TitleButton/TitleButton";
-import GlasswallLoginLogo from "./GlasswallLoginLogo/GlasswallLoginLogo";
+import PageTitle from './PageTitle/PageTitle';
+import TitleButton from '../components/TitleButton/TitleButton';
+import GlasswallLoginLogo from './GlasswallLoginLogo/GlasswallLoginLogo';
 
 function App() {
 
