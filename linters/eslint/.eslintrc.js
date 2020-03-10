@@ -22,6 +22,7 @@ module.exports = {
         "react/no-unescaped-entities": ["off"],
         "react/jsx-closing-bracket-location": ["error", "after-props"],
         "react/jsx-closing-tag-location": ["error"],
+        "react/no-string-refs": ["error"],
         "jsx-quotes": ["error", "prefer-double"],
         "func-style": ["error", "expression", { "allowArrowFunctions": true }],
         indent: ["error", 4, { SwitchCase: 1 }],
