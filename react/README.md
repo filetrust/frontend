@@ -1,4 +1,4 @@
-# Glasswall | React Style Guide
+# Glasswall React Style Guide
 
 This is one of the style guides that falls under our 'frontend' branch of documentation. It assumes you're using this eslint file: https://github.com/filetrust/frontend/tree/master/linters/eslint.
 
@@ -142,5 +142,11 @@ Avoid using an array index as a key (anti-pattern).
 ## Refs
 Use ref callbacks, not string refs.
 ```
+// bad
+<Component ref="myRef" />
 
+// good
+<Component ref={(ref) => { myRef = ref; }}>
 ```
+
+[Back to Top](#glasswall-react-style-guide)
