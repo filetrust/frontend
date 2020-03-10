@@ -23,18 +23,11 @@ class testDefinition extends React.Component {
     }
 }
 
-// bad 
+// good
 const testDefinition = ({testName}) => {
     return (
         <div>{testName}</div>
     )
-}
-
-// good
-const testDefinition = function({testName}) {
-    return (
-        <div>{testName}</div>
-    );
 }
 ```
 
