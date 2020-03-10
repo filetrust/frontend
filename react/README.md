@@ -10,6 +10,7 @@ See the base of the repository here: https://github.com/filetrust/frontend.
 3. [Code Indentation](#code-indentation)
 4. [Quotes](#quotes)
 5. [Props](#props)
+6. [Refs](#refs)
 
 ## Class Components VS Stateless
 Class components are considered old news; they contain more code, which means longer transpile times, and are more dificult to understand. Use function components instead! https://medium.com/@Zwenza/functional-vs-class-components-in-react-231e3fbd7108.
