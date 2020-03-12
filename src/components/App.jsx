@@ -2,9 +2,11 @@ import React from 'react';
 
 import styles from './App.module.scss';
 
+import GlasswallLoginLogo from './GlasswallLoginLogo/GlasswallLoginLogo';
 import PageTitle from './PageTitle/PageTitle';
 import TitleButton from '../components/TitleButton/TitleButton';
-import GlasswallLoginLogo from './GlasswallLoginLogo/GlasswallLoginLogo';
+import ReactStyleGuide from './ReactStyleGuide/ReactStyleGuide';
+
 
 const App = () => {
 
@@ -13,17 +15,19 @@ const App = () => {
             <div className={styles.titleContainer}>
                 <GlasswallLoginLogo />
                 <PageTitle
-                    heading="Glasswall's Frontend Coding Style-Guide"
+                    heading="Glasswall's Frontend Style-Guide"
                     subHeading="A frontend coding standards guideline, hopefully to enforce a consistent and maintainable frontend codebase.">
-                    
+
                     <TitleButton />
 
                 </PageTitle>
             </div>
             <div className={styles.mainContainer}>
-                Content
-                <h1> </h1>
-                <h1> </h1>
+                <div className={styles.main}>
+                    <div className={styles.content}>
+                        <ReactStyleGuide />
+                    </div>
+                </div>
             </div>
         </div>
     );

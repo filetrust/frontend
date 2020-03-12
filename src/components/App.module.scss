@@ -6,7 +6,24 @@
 .mainContainer {
     height: 100%;
     transition: all .3s ease-in-out;
-    margin: 5%;
+    margin: 1%;
+}
+
+.main {    
+    display: block;
+    width: 100%;
+    height: calc(100% - 6rem);
+    padding: 2rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.content {
+    position: relative;
+    height: 100%;
+    padding: 0;
+    background-color: #fff;
+    border: 1px solid #b6bfc9;
+    border-radius: .6rem;
 }
 
 .titleContainer {
@@ -14,5 +31,5 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(-45deg,#196480,#0c3450);
+    background: linear-gradient(-45deg, #196480, #0c3450);
 }
