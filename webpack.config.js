@@ -81,5 +81,5 @@ module.exports = {
             favicon: './public/favicon.ico'
         })
     ],
-    devtool: 'inline-source-map'
+    //devtool: 'inline-source-map'
 };
