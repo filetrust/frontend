@@ -1,0 +1,48 @@
+.innerContent {
+    padding: 2%;
+    overflow: auto;
+
+    p {
+        margin-top: 0;
+        line-height: 2.4rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+        margin: 0;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        line-height: 2.6rem;
+        font-family: "montserratregular", sans-serif;
+        font-weight: 300;
+        text-transform: uppercase;
+        color: #4592b0;
+    }
+
+    h2 {
+        font-weight: 300;
+        font-size: 1.8rem;
+        margin: 0;
+        margin-bottom: 1rem;
+    }
+
+    h3 {
+        margin: 0;
+    }
+
+    >div {
+        padding: 1.8rem;
+    }
+
+    ol {
+        margin: 0;
+        padding-left: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    ul {
+        list-style: disc;
+        padding-left: 2rem;
+        margin-bottom: 2rem;
+    }
+}

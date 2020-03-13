@@ -1,7 +1,9 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import ReactMarkdown from 'react-markdown';
 
-import styles from '../StyleGuide.module.scss';
+import { HeadingRenderer } from '../common/HeadingRenderer';
+
+import styles from '../common/StyleGuide.module.scss';
 
 const ReactStyleGuide = () => {
     const [markdownContent, setMarkdownContent] = useState('#Content Loading...');
@@ -23,7 +25,7 @@ const ReactStyleGuide = () => {
 
     return (
         <div className={styles.innerContent}>
-            <ReactMarkdown source={markdownContent} />
+            <ReactMarkdown source={markdownContent} renderers={{heading: HeadingRenderer}}/>
         </div>
     );
 };

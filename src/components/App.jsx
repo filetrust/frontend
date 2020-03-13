@@ -15,7 +15,7 @@ const App = () => {
             <div className={styles.titleContainer}>
                 <GlasswallLoginLogo />
                 <PageTitle
-                    heading="Glasswall's Frontend Style-Guide"
+                    heading="Glasswall's Frontend Style Guide"
                     subHeading="A frontend coding standards guideline, hopefully to enforce a consistent and maintainable frontend codebase.">
 
                     <TitleButton />
@@ -31,6 +31,6 @@ const App = () => {
             </div>
         </div>
     );
-}
+};
 
 export default App;

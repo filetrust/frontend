@@ -55,12 +55,13 @@ module.exports = {
                 exclude: /\.module\.(css|scss)$/
             },
             {
-                test: /\.(woff(2)?|ttf|eot|svg|md)(\?v=\d+\.\d+\.\d+)?$/,
+                test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
                 use: [
                     {
                         loader: 'file-loader',
                         options: {
-                            name: '[name].[ext]'                           
+                            name: '[name].[ext]',
+                            outputPath: 'fonts/'
                         }
                     }
                 ]
@@ -78,7 +79,8 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             template: 'public/index.html',
-            favicon: './public/favicon.ico'
+            favicon: './public/favicon.ico',
+            inject: false
         })
     ],
     //devtool: 'inline-source-map'
