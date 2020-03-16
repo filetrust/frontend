@@ -1,0 +1,27 @@
+.titleContainer {
+    width: 100%;
+    max-height: 100vh;
+    padding: 1rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+    transition: all .5s;
+}
+
+.heading {
+    position: relative;
+    margin-bottom: 0;
+    font-size: 3.2rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.subHeading {
+    @extend .heading;
+    font-size: 1.7rem;
+    font-weight: normal;    
+}
+
+.childContainer {
+    @extend .heading;
+}
