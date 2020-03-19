@@ -27,7 +27,7 @@ module.exports = {
         "func-style": ["error", "expression", { "allowArrowFunctions": true }],
         indent: ["error", 4, { SwitchCase: 1 }],
         "linebreak-style": ["error", "windows"],
-        quotes: ["error", "single"],
+        quotes: ["error", "double"],
         semi: ["error", "always"],
         "no-console": ["warn", { allow: ["clear", "info", "error", "dir", "trace"] }],
         curly: "error",
