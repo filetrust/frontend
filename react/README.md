@@ -12,7 +12,7 @@ See the base of the repository here: https://github.com/filetrust/frontend.
 5. [Props](#props)
 6. [Refs](#refs)
 
-## Class Components VS Stateless
+## Class Components VS Function Components
 Class components are considered old news; they contain more code, which means longer transpile times, and are more dificult to understand. Use function components instead! https://medium.com/@Zwenza/functional-vs-class-components-in-react-231e3fbd7108.
 
 eslint: ``` "func-style": ["error", "expression", { "allowArrowFunctions": true }], ```
@@ -50,13 +50,17 @@ const TestDefinition = ({testName}) => {
 
 ## Naming Conventions
 ### Extensions
-Use the .jsx extension for all react components.
+Use the .jsx extension for all react components. If the project uses typescript, use .tsx for all react components.
 
 ### Files
 Filenames should be PascalCase.
 
 ### Instances
 Instances/references to components should be camelCase, import should be PascalCase.
+
+### Planning components
+A component should map to a visual element on the page. Refer to this design document as a place to start when planning / naming components.
+https://reactjs.org/docs/thinking-in-react.html
 
 ```
 import TestDefinition from './TestDefinition';
@@ -109,7 +113,7 @@ eslint: ```react/jsx-closing-bracket-location: ["error", "after-props"]```
 Closing Tags should mirror HTML. eslint: ```react/jsx-closing-tag-location```
 
 ## Quotes
-Use double quotes for JSX attributes (to mirror HTML), but single quotes for any other JavaScript.
+Use double quotes for strings. String interpolation (` character) over string concatenation.
 
 ## Props
 Use camelCase for prop names.
