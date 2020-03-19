@@ -141,7 +141,7 @@ Avoid using an array index as a key (anti-pattern).
 ```
 
 ## Refs
-Use ref callbacks, not string refs.
+Use ref callbacks, not string refs. https://github.com/facebook/react/commit/5ee8a93280987bf1547687f5d8665be89058f321#all_commit_comments
 ```
 // bad
 <Component ref="myRef" />
