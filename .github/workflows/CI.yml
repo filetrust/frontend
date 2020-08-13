@@ -15,8 +15,6 @@ jobs:
     
     - uses: actions/setup-node@v1
       
-    - run: yarn
-
     - name: Install Packages ⏳
       run: yarn install
       working-directory: ${{env.working-directory}}
